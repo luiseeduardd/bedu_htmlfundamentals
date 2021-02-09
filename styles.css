@@ -45,6 +45,13 @@ body {
   .main .second-image {
     width: 70%;
   }
+  .fixed-header {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      background-color: #fffbf7;
+  }
   .header {
       margin: 40px 20px 0;
       font-size: 0;
@@ -75,7 +82,7 @@ body {
       color: #025157;
       font-weight: 500;
   }
-  .actions {
+.actions {
       width: 20%;
       text-align: right;
       font-weight: 600;
@@ -99,4 +106,58 @@ body {
 }
 .actions > * {
     margin: 0 10px;
+}
+.publish {
+    flex: 1;
+    padding: 0 10px;
+}
+.publish h3 {
+    color: #025157;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: "Alegreya", serif;
+  }
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .publish div p {
+    color: #8b8b8bcc;
+    margin-top: 15px;
+  }
+  .publish form button {
+    color: #fff;
+    background-color: #025157;
+    height: 47px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+  }
+  .publish form input {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 45px;
+    margin-right: -5px;
+    border: 1px solid #c6c6c6;
+    padding: 0 5px;
+  }
+  .promo {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+  }
+  .explanatory-video {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+}
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
 }
